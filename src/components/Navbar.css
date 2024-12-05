@@ -1,0 +1,41 @@
+/* Thanh điều hướng */
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar-links {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 8px 16px;
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: #00bcd4; /* Màu chữ khi hover */
+}
+
+.navbar-button {
+  padding: 10px 20px;
+  background-color: #00bcd4; /* Màu nút */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-button:hover {
+  background-color: #00796b; /* Màu nút khi hover */
+}

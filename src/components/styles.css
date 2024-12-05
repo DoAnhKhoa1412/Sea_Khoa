@@ -1,0 +1,70 @@
+/* src/styles/styles.css */
+
+/* Căn chỉnh chung cho các thành phần trong component */
+.fish-info-container {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.fish-info-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* Thông tin về các loài cá */
+.fish-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.fish-item {
+  text-align: center;
+  width: 200px;
+}
+
+.fish-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.fish-item img:hover {
+  transform: scale(1.1);
+}
+
+.fish-item p {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #34495e;
+  font-weight: bold;
+}
+
+/* Chi tiết thông tin cá khi được chọn */
+.fish-detail {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #ecf0f1;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fish-detail h2 {
+  font-size: 2rem;
+  color: #2980b9;
+}
+
+.fish-detail p {
+  font-size: 1rem;
+  color: #2c3e50;
+  line-height: 1.6;
+}
